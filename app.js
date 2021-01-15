@@ -89,7 +89,7 @@ function createEditButton(parent){
 
         parent.appendChild(textArea)
 
-        textArea.addEventListener('keypress', function(){
+        textArea.addEventListener('keypress', function(event){
             if (event.keyCode === 13){
 
                 event.stopPropagation()
